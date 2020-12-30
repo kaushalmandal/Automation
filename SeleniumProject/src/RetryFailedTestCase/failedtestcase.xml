@@ -1,0 +1,11 @@
+<suite name="my suite">
+	<listners>
+		<listner name="RetryFailedTestCase.RetryListnerClass">
+		</listner>
+	</listners>
+	<test name="testcases">
+		<classes>
+			<class name="RetryFailedTestCase.FailedTestCases"></class>
+		</classes>
+	</test>
+</suite>
