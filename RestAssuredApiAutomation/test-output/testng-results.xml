@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5359" started-at="2020-12-30T19:19:57Z" finished-at="2020-12-30T19:20:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5359" started-at="2020-12-30T19:19:57Z" finished-at="2020-12-30T19:20:03Z">
+      <class name="GET.GetSportsAPI">
+        <test-method status="PASS" signature="getSportsAPI()[pri:0, instance:GET.GetSportsAPI@68c4039c]" name="getSportsAPI" duration-ms="5303" started-at="2020-12-30T19:19:57Z" finished-at="2020-12-30T19:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSportsAPI -->
+      </class> <!-- GET.GetSportsAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
