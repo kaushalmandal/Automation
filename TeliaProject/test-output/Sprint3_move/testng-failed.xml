@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sprint3_move]">
+  <test name="move(failed)">
+    <classes>
+      <class name="telia.testautomation.move.Sprint3_XDSL_MoveWithinPlatform">
+        <methods>
+          <include name="teardown"/>
+          <include name="init"/>
+          <include name="XDSL_Move_BB_VoIP_IPTV_on_VDSL_Platform"/>
+        </methods>
+      </class> <!-- telia.testautomation.move.Sprint3_XDSL_MoveWithinPlatform -->
+      <class name="telia.testautomation.move.Sprint3_XDSL_MoveADSLtoVDSL">
+        <methods>
+          <include name="teardown"/>
+          <include name="XDSL_Move_BB_VoIP_IPTV_with_ADSL_VDSL"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- telia.testautomation.move.Sprint3_XDSL_MoveADSLtoVDSL -->
+    </classes>
+  </test> <!-- move(failed) -->
+</suite> <!-- Failed suite [Sprint3_move] -->

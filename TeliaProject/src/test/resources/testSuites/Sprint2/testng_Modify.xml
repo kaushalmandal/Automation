@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Modify_Package">
+  <test thread-count="1" name="Modify-allTest">
+    <classes>
+      <class name="telia.testautomation.Modify.Sprint2_ModifyPage"/>
+      <class name="telia.testautomation.Modify.Sprint2_Modify_updated"/>
+    </classes>
+  </test> <!-- Modify-allTest -->
+</suite> <!-- Modify_Package -->

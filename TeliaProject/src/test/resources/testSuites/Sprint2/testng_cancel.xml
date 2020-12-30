@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cancel_Suite">
+  <test thread-count="1" name="Cancel_Test">
+    <classes>
+      <class name="telia.testautomation.Cancel.Sprint2_Cancel_Scenario"/>
+    </classes>
+  </test> <!-- Cancel_Test -->
+</suite> <!-- Cancel_Suite -->

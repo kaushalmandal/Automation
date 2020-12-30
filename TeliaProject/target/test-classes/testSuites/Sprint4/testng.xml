@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+    <suite name="Sprint4_E2EMM_Automation"  > 
+    <!-- suite name="Suite Name" --> 
+            <suite-files>
+         			<suite-file path="testng_New.xml" />
+                   <suite-file path="testng_modify.xml" />
+                   <suite-file path="testng_Revise.xml" /> 
+                   <suite-file path="testng_move.xml" /> 
+                   <suite-file path="testng_disconnect.xml" />
+            </suite-files>
+    </suite>

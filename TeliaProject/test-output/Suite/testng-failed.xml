@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="all-tests(failed)">
+    <classes>
+      <class name="telia.testautomation.disconnectServices.Disconnect_Service">
+        <methods>
+          <include name="TC_007_XDSL_68_Handle_Disconnectreasons_for_xDSL_Disconnect_orders"/>
+          <include name="init"/>
+          <include name="TC_006_xDSL_Disconnect_VoIP"/>
+          <include name="TC_005_xDSL_Disconnect_IPTV"/>
+          <include name="TC_004_xDSL_Disconnect_Broadband_VoIP_and_IPTV_VDSL"/>
+          <include name="TC_001_xDSL_Disconnect_Broadband_Service"/>
+          <include name="TC_003_xDSL_Disconnect_Broadband_VoIP_and_IPTV_ADSL"/>
+          <include name="tearDown"/>
+          <include name="TC_002_xDSL_Disconnect_Broadband_and_VoIP_VDSL"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- telia.testautomation.disconnectServices.Disconnect_Service -->
+    </classes>
+  </test> <!-- all-tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

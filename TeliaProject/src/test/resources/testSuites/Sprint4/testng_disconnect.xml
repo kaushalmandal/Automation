@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint4_disconnect">
+  <test name="DisconnectServices">
+    <classes>
+      <class name="telia.testautomation.disconnectServices.Sprint4_Disconnect_Service"/>
+    </classes>
+  </test> <!-- DisconnectServices -->
+</suite> <!-- Sprint4_disconnect -->

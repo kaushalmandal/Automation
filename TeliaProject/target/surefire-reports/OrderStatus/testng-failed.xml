@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [OrderStatus]">
+  <test name="StatusCheck(failed)">
+    <classes>
+      <class name="telia.testautomation.migration.OrderStatusChange">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logOut"/>
+          <include name="Migrationcheck"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- telia.testautomation.migration.OrderStatusChange -->
+    </classes>
+  </test> <!-- StatusCheck(failed) -->
+</suite> <!-- Failed suite [OrderStatus] -->

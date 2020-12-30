@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint3_Revise">
+  <test name="Revise">
+    <classes>
+      <class name="telia.testautomation.Revise.Sprint3_SDU_Revise"/>
+      <class name="telia.testautomation.Revise.Sprint3_XDSL_Resume_Abuse"/>
+      <class name="telia.testautomation.Revise.Sprint3_Xdsl_Revise"/>
+    </classes>
+  </test> <!-- Revise -->
+</suite> <!-- Sprint3_Revise -->

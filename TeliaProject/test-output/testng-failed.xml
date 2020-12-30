@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="telia.testautomation.disconnectServices.Sprint5_Disconnect_Service">
+        <methods>
+          <include name="logOut"/>
+          <include name="tearDown"/>
+          <include name="beforetest"/>
+          <include name="TC_001_SDU_Disconnect_Broadband_Service"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- telia.testautomation.disconnectServices.Sprint5_Disconnect_Service -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

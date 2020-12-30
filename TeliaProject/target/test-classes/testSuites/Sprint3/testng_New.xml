@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint3_New">
+  <test name="New">
+    <classes>
+      <class name="telia.testautomation.New.Sprint3_Temporary_contact_XDSL"/>
+      <class name="telia.testautomation.New.Sprint3_Temporary_contact_XDSLPart2"/>
+      <class name="telia.testautomation.New.Sprint3_New"/>
+    </classes>
+  </test> <!-- New -->
+</suite> <!-- Sprint3_New -->

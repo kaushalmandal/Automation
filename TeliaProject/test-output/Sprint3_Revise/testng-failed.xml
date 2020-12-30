@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sprint3_Revise]">
+  <test name="Revise(failed)">
+    <classes>
+      <class name="telia.testautomation.Revise.Sprint3_Xdsl_Revise">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+          <include name="xDSL_Revise_New"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- telia.testautomation.Revise.Sprint3_Xdsl_Revise -->
+    </classes>
+  </test> <!-- Revise(failed) -->
+</suite> <!-- Failed suite [Sprint3_Revise] -->

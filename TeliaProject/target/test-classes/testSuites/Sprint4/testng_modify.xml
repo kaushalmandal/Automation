@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Sprint4_Modify">
+  <test name="modify">
+    <classes>
+      <class name="telia.testautomation.Modify.Sprint4_Modify"/>
+    </classes>
+  </test> <!-- modify -->
+</suite> <!-- Sprint4_Modify -->

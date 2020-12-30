@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10,431.619 sec <<< FAILURE!
+Migrationcheck(telia.testautomation.migration.OrderStatusChange)  Time elapsed: 10,429.869 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid property type [ MyOrder_link ] defined in Repository
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at coreFramework.CommonWebActions.getWebElement(CommonWebActions.java:561)
+	at coreFramework.CommonWebActions$1.apply(CommonWebActions.java:749)
+	at coreFramework.CommonWebActions$1.apply(CommonWebActions.java:744)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at coreFramework.CommonWebActions.findElement(CommonWebActions.java:744)
+	at coreFramework.CommonWebActions.waitUntilLoaded(CommonWebActions.java:1636)
+	at telia.testautomation.migration.OrderStatusChange.Migrationcheck(OrderStatusChange.java:75)
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint4_Revise">
+  <test name="Revise">
+    <classes>
+      <class name="telia.testautomation.Revise.Sprint4_MDURevise"/>
+    </classes>
+  </test> <!-- Revise -->
+</suite> <!-- Sprint4_Revise -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sprint4_New">
+  <test name="New">
+    <classes>
+      <class name="telia.testautomation.New.Sprint4_MDUNewBroadbandIPTVBulk"/>
+      <class name="telia.testautomation.New.Sprint4_PSTN_UPP"/>
+      <class name="telia.testautomation.New.NewSprint4"/>
+      <class name="telia.testautomation.New.Sprint4_New"/>
+      <class name="telia.testautomation.New.Sprint4_MDU_New_IPTV"/>
+    </classes>
+  </test> <!-- New -->
+</suite> <!-- Sprint4_New -->

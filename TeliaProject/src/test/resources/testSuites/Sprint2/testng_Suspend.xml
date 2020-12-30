@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suspend_Resume_Package">
+  <test thread-count="5" name="SuspendResume_allTest">
+    <classes>
+      <class name="telia.testautomation.suspendresume.Sprint2_Suspend_Service"/>
+    </classes>
+  </test> <!-- SuspendResume_allTest -->
+</suite> <!-- Suspend_Resume_Package -->
