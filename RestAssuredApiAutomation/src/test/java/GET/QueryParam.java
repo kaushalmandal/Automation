@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
@@ -23,7 +24,7 @@ public class QueryParam {
 		// get response body
 
 		ResponseBody body = response.getBody();
-		String bodyAsString = body.asString();
+		String bodyAsString = body.asPrettyString();
 		System.out.println("body in string format :" + bodyAsString);
 
 		// getStatus code
@@ -39,6 +40,11 @@ public class QueryParam {
 			System.out.println("key :" + header.getName() + "----------" + "value :" + header.getValue());
 
 		}
+		
+		//get exact node value
+		
+		JsonPath jsonpathEvaluator=response.jsonPath();
+		System.out.println("name of location is :"+jsonpathEvaluator.get("name"));
 
 	}
 
